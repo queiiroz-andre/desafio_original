@@ -1,2 +1,2 @@
-# cosg-treinamento-andre-java
+# treinamento-andre-java
 
