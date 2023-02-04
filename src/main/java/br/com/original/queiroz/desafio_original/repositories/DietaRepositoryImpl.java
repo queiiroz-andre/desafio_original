@@ -27,7 +27,6 @@ public class DietaRepositoryImpl implements DietaRepository {
 		retorno.setNome("Magresa");
 		DIETAS_DB.put(1,retorno);
 		
-		
 			
 		retorno = new Dieta(); 
 		retorno.setCodigo(3);
@@ -35,14 +34,16 @@ public class DietaRepositoryImpl implements DietaRepository {
 		retorno.setMeses(6);
 		retorno.setNome("Sobrepeso");
 		DIETAS_DB.put(3,retorno);
-		
+
+
 		retorno = new Dieta(); 
 		retorno.setCodigo(4);
 		retorno.setConteudo("1 Carboidrato , 2 proteinas");
 		retorno.setMeses(8);
 		retorno.setNome("Obesidade");
 		DIETAS_DB.put(4,retorno);
-		
+
+
 		retorno = new Dieta(); 
 		retorno.setCodigo(2);
 		retorno.setConteudo("4 Carboidrato , 4 proteinas");
