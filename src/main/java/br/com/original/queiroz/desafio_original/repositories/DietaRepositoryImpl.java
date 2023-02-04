@@ -50,6 +50,13 @@ public class DietaRepositoryImpl implements DietaRepository {
 		retorno.setMeses(4);
 		retorno.setNome("Normal");
 		DIETAS_DB.put(2,retorno);
+
+		retorno = new Dieta();
+		retorno.setCodigo(5);
+		retorno.setConteudo("2 Carboidrato , 4 proteinas");
+		retorno.setMeses(6);
+		retorno.setNome("Acima do Normal");
+		DIETAS_DB.put(2,retorno);
 		
 	}
 

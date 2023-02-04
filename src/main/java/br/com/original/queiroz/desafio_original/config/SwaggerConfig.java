@@ -23,9 +23,9 @@ public class SwaggerConfig {
     private ApiInfo getApiInfo() {
         var contact = new springfox.documentation.service.Contact("Atendimento Queiroz", "", "andre.queiroz@original.com.br");
         return new ApiInfoBuilder()
-                .title("Desafio Original API Queiroz")
-                .description("Api que define a dieta para cada tipo de IMC")
-                .version("1.0.2")
+                .title("Calculo IMC - API Queiroz")
+                .description("Api que define a dieta para os diferentes tipos de IMC")
+                .version("1.0.3")
                 .contact(contact)
                 .license("Apache License Version 2.0")
                 .licenseUrl("'http://www.apache.org/licenses/LICENSE-2.0.html'")
